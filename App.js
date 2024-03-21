@@ -7,7 +7,7 @@ import Chuteira from './components/Chuteira'
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Soccer Shop Online</Text>
+      <Text style={styles.title}>Mini Lojinha de Futebol</Text>
       <Text style={styles.subtitle}>Produtos:</Text>
     <View>
       <Camisa/>
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     
     padding:200  },
   title: {
-    fontSize: 28,
+    fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 10,
   },
